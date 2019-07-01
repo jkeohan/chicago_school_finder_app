@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+   
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Chicago School Finder</h1>
+    <p>Search By:</p>
+<!-- ////4. On the index.html page create form input that references what I'm wanting to do in the app.js
+    //     //file. I'll need to create something like zip-search-request and school-search-request to reference
+        //     //both the global school variable and the more specific zip-search request call needed to enable the API to pull zipcode information
+        //     //Don't forget, part of what Ryan showed me was that I can make calls based on the array the website has already given me. Not only 
+        //     //does this mean I don't have to use query selectors, but I can also reference the variable that stores the url to make calls(see number 3) -->
+    
+    <!-------------------------------------- Zipcode Data ------------------------------->
+        <form id="zipcode-search"> 
+    <input id="zip-search-request" placeholder="zipcode"> <input type="submit"></form>
+
+        <div id="schoolTable">
+                <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">School Name</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td class ="firstSchool"></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td class ="firstSchool2"></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td class ="firstSchool3"></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+        </div>
+
+        <!-- <h1>School Info</h1>
+
+        <dl>
+                <dt>Zipcode</dt>
+                <dd id="zipcode"></dd>
+ 
+        </dl> -->
+        <!---------------------------------------- Rating Data -------------------------------> 
+        <p>Search By:</p>
+     
+        <form class="ratings-search"> 
+    <input id="rating-search-request" placeholder="rating"> <input type="submit"></form>
+
+        <div id="ratingTable">
+                <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">School Rating</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td class ="ratingSchool"></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td class ="ratingSchool2"></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td class ="ratingSchool3"></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+        </div>
+
+        <!-- <h1>School Info</h1>
+
+        <dl>
+                <dt>Zipcode</dt>
+                <dd id="zipcode"></dd>
+ 
+        </dl> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="app2.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+
+background-color: rgb(55, 59, 72);
+
+}
+
+#coolButton{
+
+/* border-left-color: rgb(93, 101, 119);
+border-left-style: solid;
+border-left-width: 2px;
+border-right-color: rgb(93, 101, 119);
+border-right-style: solid;
+border-top-color: rgb(93, 101, 119);
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+border-top-style: solid;
+border-top-width: 2px;
+box-sizing: solid; */
+color: rgb(255, 106, 124);
+background-color:  rgb(55, 59, 72);
+border-radius: 5px;
+display: flex;
+margin-top: 15%
+
+
+}
+
+
+#coolButton2{
+
+color:  rgb(255, 169, 106);
+background-color:  rgb(55, 59, 72);
+border-radius: 5px;
+display: block; 
+margin-top: 15%
+
+}
+
+#coolButton3{
+
+    color: rgb(124, 207, 175);
+    background-color:  rgb(55, 59, 72);
+    border-radius: 5px;
+    display: block;
+    margin-top: 15%
+   
+
+}
+
+
+#coolButton4{
+
+    color: rgb(153, 153, 204);
+    background-color: rgb(55, 59, 72);
+    border-radius: 5px;
+    display: flex; 
+    margin-top: 15%
+   
+
+}
+
+#coolButton5{
+
+    color: rgb(240, 241, 244);
+    background-color: rgb(55, 59, 72);
+    border-radius: 5px;
+    
+    margin-top: 15%
+
+}
+
+#coolButton6{
+
+    color: rgb(204, 153, 153);
+    background-color: rgb(55, 59, 72);
+    border-radius: 5px;
+    display: block; 
+    margin-top: 15%
+    
+
+}

@@ -1,10 +1,174 @@
-body{
+
+/************************************************** Images ****************************************************************/
+/* bootstap carousel */
+/************************************************** Header Styles ******************************************************/
+
+#headerStyle{
+    text-align: center;
+    color: rgb(60,158,165);	
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*************************************************** Zipcode Styles  **************************************************/
+
+#searchRate1{
+    color: rgb(255,27,9);
+    margin: 10px;
+}
+
+#zipcode-search{
+    margin: 10px;
+}
+
+#ratingTable1{
+
+    text-align: center;
+}
+
+
+
+/*************************************************** Rating Styles ******************************************************/
+#searchRate2{
+
+    color:rgb(255,27,9);
+    margin: 10px;
+}
+
+#ratings-search{
+    margin: 10px;
+}
+
+#ratingInfo{
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    display: block;
+    color:rgb (255,27,9);
+}
+
+#scootOver{
+    margin: 10px;
+}
+
+#ratingTable2{
+
+    text-align: center;
+}
+
+/************************************************ Dress Code Styles ********************************************************/
+
+#searchRate3{
+    
+    color:rgb(255,27,9);
+    margin: 10px;
+}
+
+#dress-search{
+    margin: 10px;
+}
+
+
+#ratingTable3{
+
+    text-align: center;
+}
+
+/************************************************* El Train Access Styles *********************************************************/
+
+
+#searchRate4{
+    
+    color:rgb(255,27,9);
+    margin: 10px;
+}
+
+
+#el-search{
+    margin: 10px;
+}
+
+
+#ratingTable4{
+
+    text-align: center;
+}
+
+
+/********************************************** Metro Bus Access Styles  *********************************************************/
+
+
+#searchRate5{
+    
+    color:rgb(255,27,9);
+    margin: 10px;
+}
+
+#bus-search{
+    margin: 10px;
+}
+
+#ratingTable5{
+
+    text-align: center;
+}
+
+
+
+
+/* 
+
+
+
+.ratingQuestion{
+
+    text-indent: 50px;
+
+}
+
+
+
+
+
+
+
+
+/* 
+
+
+#searchRate6{
+    
+    color:rgb(255,27,9);
+    margin: 10px;
+}
+
+/* .colorMe{
+
+    color: rgb(81,76,77);
+} */
+
+/* #schoolTable{
+
+    /* background-color: blueviolet; */
+/* }
+
+.table{
+
+    background-color: rgb(139,139,139);
+}
+
+
+
+ /* */
+
+
+/* body{
 
 background-color: rgb(55, 59, 72);
 
 }
 
-#coolButton{
+#coolButton{ */
 
 /* border-left-color: rgb(93, 101, 119);
 border-left-style: solid;
@@ -17,7 +181,7 @@ border-top-right-radius: 4px;
 border-top-style: solid;
 border-top-width: 2px;
 box-sizing: solid; */
-color: rgb(255, 106, 124);
+/* color: rgb(255, 106, 124);
 background-color:  rgb(55, 59, 72);
 border-radius: 5px;
 display: flex;
@@ -79,4 +243,4 @@ margin-top: 15%
     margin-top: 15%
     
 
-}
+} */

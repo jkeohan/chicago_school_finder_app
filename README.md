@@ -6,7 +6,7 @@ The Chicago School Finder app's ultimate goal is to enable a user to input a key
 
 ## API Used: 
 
-The API used for this project was through [the city of Chicago website] (https://data.cityofchicago.org/). The app uses AJAX to make requests from the Chicago API to the Chicago Public School Finder App, focusing on the following search criteria: 
+The API used for this project was through the city of Chicago website (https://data.cityofchicago.org/). The app uses AJAX to make requests from the Chicago API to the Chicago Public School Finder App, focusing on the following search criteria: 
  
  -Zipcode
  -School Rating
